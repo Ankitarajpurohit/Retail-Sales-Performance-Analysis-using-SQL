@@ -1,10 +1,16 @@
-# Retail Sales Performance Analysis using SQL
+# Retail Sales Performance Analysis | SQL
 
 # Project Overview
 
 This project analyzes the **Sample Superstore dataset** using SQL to uncover business insights related to sales performance, profitability, customer behavior, product performance, regional trends, and time-based sales patterns.
-
 The objective of this project is to demonstrate how SQL can be used to transform raw sales data into meaningful business insights that support data-driven decision-making.
+
+# Project Highlights
+
+- Analyzed 9,994 retail transactions.
+- Solved 20+ business problems using SQL.
+- Used CTEs, Window Functions, Subqueries, CASE statements, and Date Functions.
+- Built queries to identify sales trends, customer segments, and product profitability.
 
 # Business Objectives
 
@@ -65,9 +71,13 @@ This project demonstrates:
 - Window Functions
 - ROW_NUMBER()
 - RANK()
+- DENSE_RANK()
+- DATE_TRUNC()
+- EXTRACT()
 - Subqueries
 - Date Functions
 - Business KPI Analysis
+
 
 # Business Questions Analyzed
 
@@ -144,14 +154,11 @@ Performed advanced analysis using SQL window functions and CTEs:
 - Analyzed customer dependency on high-value buyers.
 - Identified peak sales periods.
 
-# Sample SQL Techniques Used
+## Conclusion
 
-# Window Function Example
+This project demonstrates how SQL can be used to transform transactional retail data into actionable business insights.
 
-Ranking customers based on sales:
+The analysis highlights revenue trends, customer behavior, product performance, and profitability while showcasing practical 
+SQL techniques commonly used in real-world business reporting.
 
-sql
-
-RANK() OVER(
-    ORDER BY SUM(sales) DESC
-)
+   
